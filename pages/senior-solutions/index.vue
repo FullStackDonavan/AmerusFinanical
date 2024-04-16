@@ -72,11 +72,12 @@ export default {
           image: "/images/Medicare.jpg",
           url: "/senior-solutions/medicare/",
         },
+
         {
-          title: "Senior Dental",
+          title: "Senior Dental Insurance",
           excerpt:
-            "Senior dental care is vital for maintaining overall health and well-being. Many seniors face challenges accessing affordable dental services, leading to untreated dental issues. Understanding available insurance plans and seeking preventive care can ensure seniors maintain good oral health and quality of life in their golden years.",
-          image: "/images/senior-dental.jpg",
+            "Whether you're looking to enhance your favorite room in your home with a beautiful splash of color or you're looking to update the walls in your home to give them a fresh, modern look, Amerus Pro Painting can help! We can bring palates with endless options and will help you select that perfect hue. ",
+          image: "/images/dental-insurance-excerpt.jpg",
           url: "/senior-solutions/senior-dental/",
         },
         {

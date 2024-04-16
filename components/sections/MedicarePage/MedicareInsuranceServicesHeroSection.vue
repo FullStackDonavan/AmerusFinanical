@@ -2,27 +2,21 @@
   <SectionContainer class="text-center">
     <GridTwoColumns>
       <div>
-        <!-- <NuxtImg
+        <NuxtImg
           format="webp"
-          src="/images/charter-bus.jpg"
+          src="/images/MedicareInsuranceServices.jpg"
           alt="Happy Kids"
           quality="80"
           sizes="sm:1200px md:1200px lg:2000px xl:2000px xxl:2500px 2xl:3000px"
-        /> -->
-        <NuxtImg
-          format="webp"
-          src="/images/senior-life-banner.jpg"
-          alt="Happy Kids"
-          quality="80"
-          sizes="sm:400px md:600px lg:800px xl:1000px xxl:1500px 2xl:3000px"
-          class="full-width-height"
         />
       </div>
       <div class="p-4">
         <HeadlineOneHero>
-          It Takes Just a Minute to Request a Senior Life Insurance Quote
+          {{ IntroText.Heading }}
         </HeadlineOneHero>
-        <ParagraphDescriptionHero> </ParagraphDescriptionHero>
+        <ParagraphDescriptionHero>
+          {{ IntroText.Description }}
+        </ParagraphDescriptionHero>
       </div>
     </GridTwoColumns>
   </SectionContainer>
@@ -32,7 +26,12 @@
 export default {
   name: "HomepageHeroSection",
   data() {
-    return {};
+    return {
+      IntroText: {
+        Heading: "Compare Medicare Plans from up to 21 different companies",
+        Description: "$0 monthly premium Medicare plans may be available.",
+      },
+    };
   },
 };
 </script>

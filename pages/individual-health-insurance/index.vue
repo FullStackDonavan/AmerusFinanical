@@ -79,13 +79,7 @@ export default {
           image: "/images/marketplace.jpg",
           url: "/individual-health-insurance/Life-Insurance/",
         },
-        {
-          title: "Dental Insurance",
-          excerpt:
-            "Whether you're looking to enhance your favorite room in your home with a beautiful splash of color or you're looking to update the walls in your home to give them a fresh, modern look, Amerus Pro Painting can help! We can bring palates with endless options and will help you select that perfect hue. ",
-          image: "/images/dental-insurance-excerpt.jpg",
-          url: "/individual-health-insurance/Dental-Insurance/",
-        },
+
         {
           title: "Indexed Universal Life Insurance",
           excerpt:
