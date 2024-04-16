@@ -40,13 +40,13 @@ watch(
 
 <template>
   <div class="hidden md:flex justify-between space-x-10 align-bottom mt-14">
-    <NuxtLink to="/get-started" title="get started">
+    <!-- <NuxtLink to="/get-started" title="get started">
       <Icon
         name="map:bus-station"
         class="dark:text-gray-50 h-6 w-6 lg:block hover:dark:text-blue-400 hover:text-blue-400"
         size="1.5em"
       />
-    </NuxtLink>
+    </NuxtLink> -->
 
     <!-- <NuxtLink to="tel:+1863-339-9964">
       <svg
