@@ -61,7 +61,7 @@ export default {
           title: "Individual & Family",
           description:
             "Ensure your family's future with our personalized insurance plans. From life to health coverage, we tailor solutions to meet your needs, providing security and peace of mind.",
-          to: "/get-started",
+          to: "/individual-health-insurance/",
           text: "Get Started Now!",
         },
         {
@@ -69,7 +69,7 @@ export default {
           title: "Senior",
           description:
             "Navigate retirement confidently with our senior insurance plans. From Medicare to long-term care coverage, we offer personalized support for your golden years.",
-          to: "/get-started",
+          to: "/senior-solutions/",
           text: "Get Started Now!",
         },
         {
@@ -77,7 +77,7 @@ export default {
           title: "Business",
           description:
             "Protect your business with our tailored insurance solutions. From liability coverage to employee benefits, we safeguard your interests and promote growth.",
-          to: "/get-started",
+          to: "/business-solutions/",
           text: "Get Started Now!",
         },
       ],
