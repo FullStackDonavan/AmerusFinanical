@@ -61,7 +61,7 @@ watch(
             size="50"
           />
 
-          <span class="flex-1 ml-3 whitespace-nowrap">Travel Tips</span>
+          <span class="flex-1 ml-3 whitespace-nowrap">Blog</span>
         </NuxtLink>
       </li>
       <!-- <li>
