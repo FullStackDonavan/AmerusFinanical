@@ -68,22 +68,22 @@ export default {
         {
           title: "Medicare",
           excerpt:
-            "Whether you're looking to enhance your favorite room in your home with a beautiful splash of color or you're looking to update the walls in your home to give them a fresh, modern look, Amerus Pro Painting can help! We can bring palates with endless options and will help you select that perfect hue. Once the color and level of sheen are selected, we'll get to work preparing your walls and ceilings to receive the paint. Amerus Pro Painting provides a wide range of interior painting services.",
-          image: "/img/interior-painting.jpg",
+            "Medicare provides essential healthcare coverage for individuals aged 65 and older, as well as certain younger people with disabilities. It consists of several parts, including hospital insurance (Part A), medical insurance (Part B), and prescription drug coverage (Part D). Understanding Medicare options is crucial for effective healthcare planning.",
+          image: "/images/Medicare.jpg",
           url: "/senior-solutions/medicare/",
         },
         {
           title: "Senior Dental",
           excerpt:
-            "An eye-catching exterior makes a statement! When it comes to house painting and exterior painting, no one delivers like Amerus Pro Painting. We won't cut corners on the prep work because we know that sets the foundation for a professional, lasting exterior paint job. And when the job is complete, Amerus Pro Painting wants you to have just as much pride and joy in the final ",
-          image: "/img/exterior-painting.jpg",
+            "Senior dental care is vital for maintaining overall health and well-being. Many seniors face challenges accessing affordable dental services, leading to untreated dental issues. Understanding available insurance plans and seeking preventive care can ensure seniors maintain good oral health and quality of life in their golden years.",
+          image: "/images/senior-dental.jpg",
           url: "/senior-solutions/senior-dental/",
         },
         {
           title: "Senior Life",
           excerpt:
-            "Whether you're looking to enhance your favorite room in your home with a beautiful splash of color or you're looking to update the walls in your home to give them a fresh, modern look, Amerus Pro Painting can help! We can bring palates with endless options and will help you select that perfect hue. ",
-          image: "/img/drywal-repair.jpg",
+            "Senior life insurance provides financial security for loved ones after one's passing. It helps cover funeral costs, outstanding debts, and provides a legacy for beneficiaries. Understanding policy options, such as term or whole life insurance, is crucial for seniors to ensure their final expenses are adequately covered.",
+          image: "/images/senior-life.jpg",
           url: "/senior-solutions/senior-life/",
         },
       ],
