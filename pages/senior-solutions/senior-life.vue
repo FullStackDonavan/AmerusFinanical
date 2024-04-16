@@ -8,9 +8,9 @@
     />
 
     <Breadcrumbs
-      currentPageTitle="Pressure Washing"
-      parentTitle="Services"
-      parentUrl="/Services/"
+      currentPageTitle="Senior Life"
+      parentTitle="Senior Solutions"
+      parentUrl="/senior-solutions/"
     />
 
     <GetAnswersToYourQuestions />

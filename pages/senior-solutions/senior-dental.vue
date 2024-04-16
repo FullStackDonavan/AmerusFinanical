@@ -7,9 +7,9 @@
       image="/img/popcorn-ceiling-removal-banner.jpg"
     />
     <Breadcrumbs
-      currentPageTitle="Popcorn Ceiling Removal"
-      parentTitle="Services"
-      parentUrl="/Services/"
+      currentPageTitle="Senior Dental"
+      parentTitle="Senior Solutions"
+      parentUrl="/senior-solutions/"
     />
 
     <GetAnswersToYourQuestions />

@@ -2,9 +2,9 @@
   <PatternSection>
     <BasicSection>
       <Breadcrumbs
-        currentPageTitle="Interior Painting"
-        parentTitle="Services"
-        parentUrl="/Services/"
+        currentPageTitle="Medicare"
+        parentTitle="Senior Solutions"
+        parentUrl="/senior-solutions/"
       />
       <GetAnswersToYourQuestions />
     </BasicSection>
