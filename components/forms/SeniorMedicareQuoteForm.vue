@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-8 mx-auto max-w-[800px]">
+  <div>
     <form @submit.prevent="handleSubmit">
       <!-- Step 1 form fields -->
       <div v-if="currentStep === 1" key="step1">

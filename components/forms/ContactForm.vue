@@ -1,6 +1,6 @@
 <!-- Your form component template -->
 <template>
-  <div class="container mt-8 mx-auto max-w-[800px]">
+  <div>
     <div class="px-4 mb-8 md:block">
       <form @submit.prevent="handleSubmit">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
