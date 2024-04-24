@@ -14,10 +14,9 @@
             </h2>
             <ul class="text-gray-800 dark:text-gray-400">
               <li class="mb-4">
-                <a href="#" class="hover:underline">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                <NuxtLink to="/PrivacyPolicy/" class="hover:underline"
+                  >Privacy Policy</NuxtLink
+                >
               </li>
             </ul>
           </div>
@@ -35,9 +34,11 @@
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
-            href="#"
+            href="https://www.facebook.com/AmerusFinancial/"
             class="text-gray-800 hover:text-gray-900 dark:hover:text-white"
             title="facebook"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               class="w-5 h-5"
@@ -52,9 +53,11 @@
               />
             </svg>
           </a>
-          <!-- <a
-            href="#"
+          <a
+            href="https://www.instagram.com/amerusfinancialgroup/?hl=en"
             class="text-gray-800 hover:text-gray-900 dark:hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               class="w-5 h-5"
@@ -68,11 +71,13 @@
                 clip-rule="evenodd"
               />
             </svg>
-          </a> -->
+          </a>
           <a
-            href="#"
+            href="https://twitter.com/AmerusFinancial/status/1261292690219679744"
             class="text-gray-800 hover:text-gray-900 dark:hover:text-white"
             title="twitter"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               class="w-5 h-5"
