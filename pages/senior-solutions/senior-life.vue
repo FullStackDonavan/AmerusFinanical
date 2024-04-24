@@ -7,7 +7,7 @@
       image="/img/pressure-washing-banner.jpg"
     />
 
-    <SeniorInsuranceSolutionHeroSection />
+    <SeniorLifeInsuranceSolutionHeroSection tag="SeniorLifeInsuranceQuote" />
     <Breadcrumbs
       currentPageTitle="Senior Life"
       parentTitle="Senior Solutions"

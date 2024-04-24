@@ -3,9 +3,9 @@
     <AnnuitiesServicesHeroSection />
 
     <Breadcrumbs
-      currentPageTitle="Pressure Washing"
-      parentTitle="Services"
-      parentUrl="/Services/"
+      currentPageTitle="Indexed Universal Life Insurance"
+      parentTitle="Individual Health Insurance"
+      parentUrl="/individual-health-insurance/"
     />
 
     <ImmediateAnnuitySection />

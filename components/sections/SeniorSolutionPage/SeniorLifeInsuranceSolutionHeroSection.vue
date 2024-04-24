@@ -11,7 +11,7 @@
         /> -->
         <NuxtImg
           format="webp"
-          src="/images/healthcare-bg.jpg"
+          src="/images/senior-life-banner.jpg"
           alt="Happy Kids"
           quality="80"
           sizes="sm:400px md:600px lg:800px xl:1000px xxl:1500px 2xl:3000px"
@@ -20,14 +20,9 @@
       </div>
       <div class="p-4">
         <HeadlineOneHero>
-          {{ IntroText.Heading }}
+          It Takes Just a Minute to Request a Senior Life Insurance Quote
         </HeadlineOneHero>
-        <ParagraphDescriptionHero>
-          {{ IntroText.Description }}
-        </ParagraphDescriptionHero>
-        <IndividualFamilyHealthInsuranceQuoteForm
-          tag="IndividualFamilyHealthInsuranceQuote"
-        />
+        <SeniorLifeQuoteForm tag="SeniorLifeInsuranceQuote" />
       </div>
     </GridTwoColumns>
   </SectionContainer>
@@ -37,13 +32,7 @@
 export default {
   name: "HomepageHeroSection",
   data() {
-    return {
-      IntroText: {
-        Heading: "Affordable Health Insurance Made Simple",
-        Description:
-          "Guaranteed lowes rates, Comprenhensive plans. Multiple carriers to choose from.",
-      },
-    };
+    return {};
   },
 };
 </script>

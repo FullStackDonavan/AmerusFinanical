@@ -16,7 +16,11 @@
             </ParagraphDescription>
           </div>
         </BasicSection>
-        <div><RegisterForm /></div>
+        <div>
+          <JoinTheAmerusFinancialCommunity
+            tag="JoinTheAmerusFinancialCommunity"
+          />
+        </div>
       </GridTwoColumns>
     </div>
     <div class="spacer h-40"></div>

@@ -12,6 +12,9 @@
               A.C.A Quote
             </h2>
           </div>
+          <IndividualFamilyHealthcareInsuranceQuoteForm
+            tag="HealthInsuranceACAQuote"
+          />
           <div class="text-md p-3 mb-4">
             <BasicList>
               <ListItems>40 yr Male, 40 yr female, 2 children</ListItems>
@@ -23,10 +26,6 @@
             <ParagraphDescription
               >Plan Premium with tax credit = $145.77</ParagraphDescription
             >
-            <div class="text-center">
-              <!-- Added text-center class here -->
-              <CtaButton to="" class="">Get a Quote</CtaButton>
-            </div>
           </div>
           <div>
             <!-- <img :src="image" /> -->
@@ -43,6 +42,9 @@
               Short Term Medical
             </h2>
           </div>
+          <IndividualFamilyHealthcareInsuranceQuoteForm
+            tag="HealthInsuranceShortTermMedical"
+          />
           <div class="text-md p-3 mb-4">
             <BasicList>
               <ListItems>40 yr Male, 40 yr female, 2 children</ListItems>
@@ -55,10 +57,6 @@
             <ParagraphDescription
               >Short Term Silver Plan $369.80</ParagraphDescription
             >
-            <div class="text-center">
-              <!-- Added text-center class here -->
-              <CtaButton to="" class="">Get a Quote</CtaButton>
-            </div>
           </div>
           <div>
             <!-- <img :src="image" /> -->
@@ -75,6 +73,9 @@
               Indemnity
             </h2>
           </div>
+          <IndividualFamilyHealthcareInsuranceQuoteForm
+            tag="HealthInsuranceIndemnity"
+          />
           <div class="text-md p-3 mb-4">
             <BasicList>
               <ListItems>40 yr Male, 40 yr female, 2 children</ListItems>
@@ -85,10 +86,6 @@
               <ListItems>Teledoc Included</ListItems>
             </BasicList>
             <ParagraphDescription>Plan Premium $268.00</ParagraphDescription>
-            <div class="text-center">
-              <!-- Added text-center class here -->
-              <CtaButton to="" class="">Get a Quote</CtaButton>
-            </div>
           </div>
           <div>
             <!-- <img :src="image" /> -->

@@ -28,7 +28,8 @@
         <ParagraphDescriptionHero>
           {{ IntroText.Description }}
         </ParagraphDescriptionHero>
-        <CardDeckThreeColumns class="hidden sm:block">
+        <HomePageQuoteForm tag="HomePageQuoteForm" />
+        <!-- <CardDeckThreeColumns class="hidden sm:block">
           <Card
             v-for="Feature in Featured"
             :key="Feature.id"
@@ -37,7 +38,7 @@
             :to="Feature.to"
             :text="Feature.text"
           />
-        </CardDeckThreeColumns>
+        </CardDeckThreeColumns> -->
       </div>
     </GridTwoColumns>
   </SectionContainer>

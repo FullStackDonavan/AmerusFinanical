@@ -21,6 +21,9 @@
         <ParagraphDescriptionHero>
           {{ IntroText.Description }}
         </ParagraphDescriptionHero>
+        <IndividualFamilyLifeInsuranceQuoteForm
+          tag="IndividualFamilyLifeInsuranceQuote"
+        />
       </div>
     </GridTwoColumns>
   </SectionContainer>

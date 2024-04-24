@@ -20,11 +20,45 @@
       </div>
       <div class="p-4">
         <HeadlineOneHero>
-          {{ IntroText.Heading }}
+          Business Insurance Solutions Tailored to Your Needs
         </HeadlineOneHero>
-        <ParagraphDescriptionHero>
-          {{ IntroText.Description }}
-        </ParagraphDescriptionHero>
+        <ParagraphDescriptionHero
+          >For over two decades, Amerus Financial has been at the forefront of
+          delivering need-based insurance solutions to a diverse range of
+          businesses, from burgeoning startups to established enterprises. Our
+          team of highly qualified professionals consistently stays abreast of
+          the latest trends and regulatory changes in an insurance landscape
+          that is as dynamic as it is complex.</ParagraphDescriptionHero
+        >
+        <ParagraphDescriptionHero
+          >We recognize that offering employee benefits can be both a logistical
+          and financial challenge for businesses. That’s why we’ve streamlined
+          the process to make it as straightforward as possible. We begin by
+          deeply understanding your company’s unique requirements and
+          operational intricacies. Based on this understanding, we then develop
+          a tailored plan that not only meets your specific needs but also
+          remains budget-friendly.</ParagraphDescriptionHero
+        >
+        <ParagraphDescriptionHero
+          >To ensure we provide the highest quality of coverage, we partner with
+          top-rated insurance carriers across the country, all of whom
+          specialize in crafting innovative, effective solutions for businesses
+          like yours. This collaborative approach allows us to offer
+          comprehensive yet cost-effective insurance packages that stand out in
+          the market.</ParagraphDescriptionHero
+        >
+        <ParagraphDescriptionHero
+          >The trust and confidence that hundreds of companies nationwide have
+          placed in us serve as a testament to the quality, reliability, and
+          excellence of the insurance solutions we provide. Reach out to Amerus
+          Financial today to discover why we have become the go-to source for
+          business insurance solutions that genuinely
+          work.</ParagraphDescriptionHero
+        >
+        <ParagraphDescriptionHero
+          >Contact us for a customized insurance consultation today at
+          1-888-441-7891</ParagraphDescriptionHero
+        >
       </div>
     </GridTwoColumns>
   </SectionContainer>

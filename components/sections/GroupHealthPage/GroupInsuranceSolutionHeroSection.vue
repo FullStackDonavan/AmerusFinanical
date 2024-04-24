@@ -19,6 +19,14 @@
         <ParagraphDescriptionHero>
           {{ IntroText.Description }}
         </ParagraphDescriptionHero>
+        <NuxtLink
+          to="https://portal.benefitalign.com/brokerengage/amerusfinancial/small-business-health-insurance/health?clearSession=True&isAnonymousQuote=True"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block py-2.5 px-8 text-sm text-white bg-indigo-600 hover:bg-indigo-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-lg dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Get A Quote
+        </NuxtLink>
       </div>
     </GridTwoColumns>
   </SectionContainer>

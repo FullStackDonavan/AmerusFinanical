@@ -1,14 +1,30 @@
 <template>
   <SectionContainer class="text-center">
-    <div>
-      <NuxtImg
-        format="webp"
-        src="/images/dental-insurance-banner.jpg"
-        alt="Happy Kids"
-        quality="80"
-        class="full-width-height"
-      />
-    </div>
+    <GridTwoColumns>
+      <div>
+        <!-- <NuxtImg
+          format="webp"
+          src="/images/charter-bus.jpg"
+          alt="Happy Kids"
+          quality="80"
+          sizes="sm:1200px md:1200px lg:2000px xl:2000px xxl:2500px 2xl:3000px"
+        /> -->
+        <NuxtImg
+          format="webp"
+          src="/images/dental-insurance-banner.jpg"
+          alt="Happy Kids"
+          quality="80"
+          sizes="sm:400px md:600px lg:800px xl:1000px xxl:1500px 2xl:3000px"
+          class="full-width-height"
+        />
+      </div>
+      <div class="p-4">
+        <HeadlineOneHero>
+          Senior Solutions for Your Unique Needs
+        </HeadlineOneHero>
+        <SeniorDentalQuoteForm tag="SeniorDentalInsuranceQuote" />
+      </div>
+    </GridTwoColumns>
   </SectionContainer>
 </template>
 
@@ -16,38 +32,7 @@
 export default {
   name: "HomepageHeroSection",
   data() {
-    return {
-      IntroText: {
-        SubHeading: "Our Commitment to Excellence",
-        Heading: "About Good Time Travel",
-        Description:
-          "Good Time Travel is a nationwide leading bus charter company providing quality transportation and personal service for point-to-point excursions, long-distance, overnight trips, special events and more. No matter where you are traveling in the United States, our bus charter rentals offer safe, reliable transportation at affordable rates for both large and small groups. We pride ourselves on delivering extensive services to fulfill all your transportation needs with first-rate customer service and safety as our top priorities. Our experienced staff will support and guide you from the first call to the last mile so that your bus rental and trip goes exactly as planned.",
-      },
-      Featured: [
-        {
-          id: 1,
-          title: "Commitment to Safety",
-          description:
-            "Providing secure transportation with top-notch safety measures for all our passengers.",
-        },
-        {
-          id: 2,
-          title: "Unparalleled Customer Service",
-          description:
-            "Ensuring a seamless journey from start to finish with personalized attention and support.",
-        },
-        {
-          id: 3,
-          title: "Reliable and Affordable Travel",
-          description:
-            "Offering dependable and cost-effective transportation solutions tailored to your needs.",
-        },
-      ],
-      CTA: {
-        to: "/get-started",
-        text: "Get Started Now!",
-      },
-    };
+    return {};
   },
 };
 </script>
