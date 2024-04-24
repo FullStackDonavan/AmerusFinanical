@@ -114,6 +114,7 @@ export default {
     async createContact() {
       try {
         const config = useRuntimeConfig();
+        console.log(config.public.GHL_API_KEY);
         const myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
         myHeaders.append("Authorization", `${config.public.GHL_API_KEY}`);
