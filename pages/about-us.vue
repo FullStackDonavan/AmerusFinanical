@@ -3,6 +3,6 @@
     <AboutPageHeroSection />
     <AboutAmerusFinancialSection />
     <MeetTheTeamSection />
-    <CustomerReviewSection />
+    <!-- <CustomerReviewSection /> -->
   </PatternSection>
 </template>

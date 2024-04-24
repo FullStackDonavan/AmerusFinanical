@@ -5,20 +5,24 @@
       <div class="p-4 sm:p-8 mx-auto">
         <img src="/images/Tim.jpg" class="rounded-full" />
         <!-- Added rounded-full class -->
+        <HeadlineFour class="text-center">Timothy Baggett</HeadlineFour>
       </div>
       <div class="p-4 sm:p-8 mx-auto">
         <img src="/images/abigail.jpg" class="rounded-full" />
         <!-- Added rounded-full class -->
+        <HeadlineFour class="text-center">Abigail Baggett</HeadlineFour>
       </div>
     </GridTwoColumns>
     <GridTwoColumns>
       <div class="p-4 sm:p-8 mx-auto">
         <img src="/images/leah.jpg" class="rounded-full" />
         <!-- Added rounded-full class -->
+        <HeadlineFour class="text-center">Leah Dugger</HeadlineFour>
       </div>
       <div class="p-4 sm:p-8 mx-auto">
         <img src="/images/curtis.jpg" class="rounded-full" />
         <!-- Added rounded-full class -->
+        <HeadlineFour class="text-center">Curtis Dugger</HeadlineFour>
       </div>
     </GridTwoColumns>
   </BasicSection>

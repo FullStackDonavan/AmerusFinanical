@@ -19,10 +19,8 @@ watch(
 );
 </script>
 <template>
-  <div class="py-4 overflow-y-auto my-12">
+  <div class="py-4 overflow-y-auto">
     <ul class="space-y-2">
-      <MenuIconList />
-
       <li>
         <NuxtLink
           to="/"
@@ -77,7 +75,7 @@ watch(
           <span class="flex-1 ml-3 whitespace-nowrap">Dashboard</span>
         </NuxtLink>
       </li> -->
-      <li v-if="!isLoggedIn">
+      <!-- <li v-if="!isLoggedIn">
         <NuxtLink
           to="/login"
           class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
@@ -134,7 +132,7 @@ watch(
           />
           <span class="flex-1 ml-3 whitespace-nowrap">logout</span>
         </span>
-      </li>
+      </li> -->
     </ul>
   </div>
 </template>
