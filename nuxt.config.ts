@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' }
   },
+   buildModules: ['@nuxt/typescript-build'],
   components: {
     "dirs": [
       {
