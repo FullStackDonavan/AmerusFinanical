@@ -65,7 +65,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'https://goodtimetravelsc.com',
+    url: 'https://amerusfinanical.vercel.app/',
     name: 'Amerus Financial',
     description: 'Welcome to Amerus Financial!',
     defaultLocale: 'en', // not needed if you have @nuxtjs/i18n installed
