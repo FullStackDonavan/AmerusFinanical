@@ -80,14 +80,14 @@ export default defineNuxtConfig({
   schemaOrg: {
     identity: {
       type: 'Organization',
-      name: 'Good Times Travel ',
-      url: 'https://goodtimetravelsc.com',
-      logo: 'https://goodtimetravelsc.com/_vercel/image?url=%2Fimg%2Flogo_white.png&w=320&q=80'
+      name: 'Amerus Finanical',
+      url: 'https://amerusfinanical.vercel.app/',
+      logo: 'https://amerusfinanical.vercel.app/_vercel/image?url=%2Fimg%2Flogo_white.png&w=320&q=80'
     }
   },
   generate: {
     // Specify the routes to generate statically
-    routes: ['/about-us', '/get-started'],
+    // routes: ['/about-us', '/get-started'],
     // Optionally, you can define a function to dynamically generate routes
     // routes: async () => {
     //   // Fetch routes from an API or database
