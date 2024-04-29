@@ -6,7 +6,7 @@
           <div class="relative mb-6 group">
             <label
               for="floating_first_name"
-              class="block mb-1 text-sm font-medium text-gray-700 text-left"
+              class="block mb-1 text-sm font-medium text-gray-100 text-left"
               >First Name:</label
             >
             <input
@@ -14,7 +14,7 @@
               v-model="firstName"
               id="floating_first_name"
               name="floating_first_name"
-              class="block w-full py-2.5 px-4 text-sm text-gray-800 bg-gray-100 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
+              class="block w-full py-2.5 px-4 text-sm text-gray-100 bg-gray-100 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
               placeholder=" "
               required
             />
@@ -22,7 +22,7 @@
           <div class="relative mb-6 group">
             <label
               for="floating_last_name"
-              class="block mb-1 text-sm font-medium text-gray-700 text-left"
+              class="block mb-1 text-sm font-medium text-gray-100 text-left"
               >Last Name:</label
             >
             <input
@@ -30,7 +30,7 @@
               v-model="lastName"
               id="floating_last_name"
               name="floating_last_name"
-              class="block w-full py-2.5 px-4 text-sm text-gray-800 bg-gray-100 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
+              class="block w-full py-2.5 px-4 text-sm text-gray-100 bg-gray-100 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
               placeholder=" "
               required
             />
@@ -40,7 +40,7 @@
         <div class="relative mb-6 group">
           <label
             for="email"
-            class="block mb-1 text-sm font-medium text-gray-700 text-left"
+            class="block mb-1 text-sm font-medium text-gray-100 text-left"
             >Email:</label
           >
           <input
@@ -48,7 +48,7 @@
             v-model="email"
             id="email"
             name="email"
-            class="block w-full py-2.5 px-4 text-sm text-gray-800 bg-gray-100 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
+            class="block w-full py-2.5 px-4 text-sm text-gray-100 bg-gray-100 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
             placeholder=" "
             required
           />
@@ -57,7 +57,7 @@
         <div class="relative mb-6 group">
           <label
             for="phoneNumber"
-            class="block mb-1 text-sm font-medium text-gray-700 text-left"
+            class="block mb-1 text-sm font-medium text-gray-100 text-left"
             >Phone Number:</label
           >
           <input
@@ -65,7 +65,7 @@
             v-model="phoneNumber"
             id="phoneNumber"
             name="phoneNumber"
-            class="block w-full py-2.5 px-4 text-sm text-gray-800 bg-gray-100 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
+            class="block w-full py-2.5 px-4 text-sm text-gray-100 bg-gray-100 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
             placeholder=" "
             required
           />
