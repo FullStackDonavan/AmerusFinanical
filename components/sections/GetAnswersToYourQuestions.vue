@@ -1,7 +1,7 @@
 <template>
   <div
     id="ServiceArea"
-    class="map-image flex flex-col justify-center items-center relative bg-blue-300 dark:bg-blue-400 text-gray-800"
+    class="map-image flex flex-col justify-center items-center relative bg-blue-300 dark:bg-blue-400 text-white"
   >
     <div class="container my-25 mx-auto mt-60">
       <GridTwoColumns>
@@ -10,8 +10,10 @@
             <!-- <ParagraphSubHeading>
         {{ IntroText.SubHeading }}
       </ParagraphSubHeading> -->
-            <HeadlineTwo>{{ IntroText.Heading }}</HeadlineTwo>
-            <ParagraphDescription>
+            <HeadlineTwo class="text-white">{{
+              IntroText.Heading
+            }}</HeadlineTwo>
+            <ParagraphDescription class="text-white">
               {{ IntroText.description }}
             </ParagraphDescription>
           </div>
