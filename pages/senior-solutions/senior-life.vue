@@ -1,12 +1,5 @@
 <template>
   <BasicSection>
-    <HeroSection
-      title="Pressure Washing Services"
-      description="RESTORE, RENEW, REVEAL: PRESSURE WASHING POWER"
-      url="https://nuxtjs.org"
-      image="/img/pressure-washing-banner.jpg"
-    />
-
     <SeniorLifeInsuranceSolutionHeroSection tag="SeniorLifeInsuranceQuote" />
     <Breadcrumbs
       currentPageTitle="Senior Life"
